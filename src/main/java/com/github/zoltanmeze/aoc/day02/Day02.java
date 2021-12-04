@@ -101,7 +101,7 @@ public class Day02 implements Runnable {
 
     @Data
     @RequiredArgsConstructor(staticName = "of")
-    private static class Pair {
+    public static class Pair {
         final int x;
         final int y;
     }
